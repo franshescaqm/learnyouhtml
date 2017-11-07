@@ -1,0 +1,46 @@
+/*Reusable style*/
+#uppercase-text{
+text-transform: uppercase;
+}
+
+body{
+  background-color: #00bfff;
+  color: white;
+  font-family: 'Teko', sans-serif;
+}
+
+header p em{
+  color: gray;
+}
+
+hr{
+  height: 8px;
+}
+
+/*estilo de tabla principal indicada sin delineado ni viñetas*/
+ul{
+list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+/*Estilos de color al pasar Mouse encima*/
+.container li:hover{
+  background: gray;
+}
+
+.container li a:hover{
+  color:#00bfff;
+
+/*Quitando Viñetas*/
+footer ul{
+  list-style: none;
+}
+
+/*Quitando delineado*/
+footer ul li a{
+  text-decoration: none;
+}
